@@ -1,0 +1,9 @@
+use nhsclinic;
+CREATE TABLE Appointments(
+    `Appointment ID (PK)` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `Appointment Date` DATE NOT NULL,
+    `Appointment Time` TIME NOT NULL,
+    `Patient ID (FK)` BIGINT NOT NULL,
+    `Doctor ID (FK)` BIGINT NOT NULL,
+    `Clinic ID (FK)` BIGINT NOT NULL
+);
