@@ -1,0 +1,8 @@
+use nhsclinic;
+CREATE TABLE Notes(
+    `Notes ID (PK)` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `Notes` VARCHAR(255) NOT NULL,
+    `Patient ID (FK)` BIGINT NOT NULL,
+    `Doctors ID (FK)` BIGINT NOT NULL,
+    `Clinic ID (FK)` BIGINT NOT NULL,
+    `Appointment ID (FK)` BIGINT NOT NULL
