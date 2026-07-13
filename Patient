@@ -1,0 +1,11 @@
+use nhsclinic;
+CREATE TABLE Patient(
+    `Patient ID (PK)` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `Patient Name` TEXT NOT NULL,
+    `Patient Address` VARCHAR(255) NOT NULL,
+    `Patient Phone Number` VARCHAR(255) NOT NULL,
+    `Medication ID (FK)` VARCHAR(255) NOT NULL,
+    `Doctor ID (FK)` BIGINT NOT NULL,
+    `Clinic ID (FK)` BIGINT NOT NULL,
+    `Notes (FK)` BIGINT NOT NULL
+);
