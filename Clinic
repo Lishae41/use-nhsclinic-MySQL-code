@@ -1,0 +1,7 @@
+use nhsclinic;
+CREATE TABLE Clinics(
+    `Clinic ID (PK)` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `Clinic Name` TEXT NOT NULL,
+    `Clinic Address` VARCHAR(255) NOT NULL,
+    `Clinic Phone Number` VARCHAR(255) NOT NULL
+);
