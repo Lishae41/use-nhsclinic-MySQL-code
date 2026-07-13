@@ -1,0 +1,8 @@
+use nhsclinic;
+CREATE TABLE Doctor(
+    `Doctor ID (PK)` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `Doctor Name` TEXT NOT NULL,
+    `Doctor Speciality` TEXT NOT NULL,
+    `Doctors Ext Number` VARCHAR(255) NOT NULL,
+    `Clinic ID (FK)` BIGINT NOT NULL
+);
